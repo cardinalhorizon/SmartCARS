@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/smartcars",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\SmartCARS\\Providers\\SmartCARSServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SmartCARS\\": ""
+        }
+    }
+}
