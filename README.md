@@ -7,7 +7,7 @@ The Official smartCARS 2 Compatibility Module for VAOS
 2. Make sure the folder is named `SmartCARS`
 3. Move folder into `VAOS/Modules` folder
 4. Navigate to https://yourwebsite.url/smartcars/install
-5. Copy/Paste the link shown to your smartCARS configuration on https://tfiddesign.com/
+5. Copy/Paste the link shown to your smartCARS configuration on https://tfdidesign.com/
 6. ????
 7. PROFIT!!
 
