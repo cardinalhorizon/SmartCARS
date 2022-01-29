@@ -402,7 +402,11 @@ class SmartCARS
         );
 
         // find if the row exists
-        $flight = self::getProperFlightNum($flightnumber, $dbid);
+        $flight = Flight::where(['callsign' => $flightnumber, 'user_id' => $dbid, ['state', '!=', 2]])->first();
+        if ($flight->state == 0) {
+            $flight->state = 1;
+            $flight->save();
+        }
         $rpt = new ACARSData();
         $rpt->user()->associate($fields['pilotid']);
         $rpt->flight()->associate($flight->id);
